@@ -1,0 +1,111 @@
+table, td, tr, th {
+    font-size: 20px;
+    text-align: start;
+    padding: 10px;
+    font-family: "Myriad Pro";
+    vertical-align: top;
+}
+
+th {
+    border-bottom: solid 2px black;
+}
+
+td {
+    border-bottom: solid 2px black;
+}
+
+td img {
+    width: 80px;
+    margin: 10px;
+}
+
+.product {
+    display: flex;
+}
+
+.product p {
+    padding: 20px;
+}
+
+.price, .qty, .totalcost {
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+
+td form {
+    margin-top: 20px;
+}
+
+.grandtotal {
+    margin-left: 30px;
+}
+
+input[type="number"] {
+    width: 30px;
+}
+
+#change, #delete {
+    font-family: "Myriad Pro";
+    background: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+#change:hover, #delete:hover {
+    background-color: rgb(97, 94, 94);
+    color: white;
+}
+
+.navbutton {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shopping {
+    margin-top: 50px;
+}
+
+.shopping a {
+    padding: 20px;
+    background-color: black;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    font-family: "Myriad Pro";
+    transition-duration: 0.2s;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.shopping a:hover {
+    border: solid 1px black;
+    color: black;
+    background-color: white;
+}
+@media only screen and (max-width:768px) {
+    .navbutton {
+        width: 768px;
+    }
+    .shopping a {
+        font-size: 24px;
+    }
+
+}
+@media only screen and (max-width:480px) {
+    .navbutton {
+        width: 480px;
+    }
+    .shopping a {
+        font-size: 12px;
+    }
+    table, td, tr, th {
+        font-size: 10px;
+    }
+    #change, #delete {
+        font-size: 10px;
+    }
+    
+
+}

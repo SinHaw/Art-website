@@ -1,0 +1,179 @@
+body {
+    font-family: "Myriad Pro";
+}
+
+#portrait img{
+    width: 500px;
+    height: 650px;
+}
+
+.content {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    
+}
+#Contact{
+    margin: auto !important;
+
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.content p {
+    margin: 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+    width: 600px;
+    margin: auto;
+}
+
+b {
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+.socialmedia img {
+    width: 50px;
+    height: auto;
+}
+
+.socialmedia li {
+    list-style-type: none;
+    padding: 10px;  
+    
+
+}
+.socialmedia{
+    display: flex;
+    justify-content: center;
+} 
+#feedback input[type=text],[type=tel],[type=email] {
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin: auto;
+    margin-top: 30px;
+    height: 50px;
+    
+    
+}
+
+#feedback input[type=submit] {
+    margin-top: 20px;
+    width: 600px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+    background-color: lightgray;
+}
+#feedback input[type=submit]:hover{
+    color: black;
+    background-color: lightgray;
+}
+h2 a {
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+    
+
+}
+h2{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-bottom:20px ;
+    width: 600px;
+    
+}
+@media only screen and (max-width:768px) {
+
+    #portrait img{
+        margin-top: 50px;
+        width: 300px;
+        height: 400px;
+    }
+    #bar{
+        width: 400px;
+    }
+    #contact p{
+        font-size:18px;
+    }
+    #feedback input[type=text],[type=tel],[type=email] {
+        font-size: 12px;
+        height: 20px;
+        
+        
+    }
+    .content p {
+        font-size: 15px;
+        width: 400px;
+    }
+    #feedback input[type=submit] {
+        width: 400px;
+    }
+    h2{
+        width: 400px;
+        
+    }
+    
+    
+}
+@media only screen and (max-width:480px) {
+
+    h1 {
+        font-size: 20px;
+    }
+    
+    #portrait img{
+        margin-top: 50px;
+        width: 180px;
+        height: 250px;
+    }
+    #bar{
+        width: 260px;
+    }
+    #contact p{
+        font-size:18px;
+    }
+    #feedback input[type=text],[type=tel],[type=email] {
+        font-size: 10px;
+        height: 15px;
+        width: 280px;
+        
+        
+    }
+    .content p {
+        font-size: 13px;
+        width: 280px;
+    }
+    #feedback input[type=submit] {
+        width: 280px;
+        margin-top: 20px;
+        height: 30px;
+        font-size: 15px;
+    }
+    h2{
+        font-size: 10px;
+        width: 280px;
+        
+    }
+    .socialmedia img {
+        width: 30px;
+    }
+    
+    
+}
+
+
+
+

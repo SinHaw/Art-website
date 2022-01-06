@@ -1,0 +1,100 @@
+body {
+    font-family: "Myriad Pro";
+}
+
+.container {
+    width: 900px;
+    margin-left: 150px;
+    
+}
+
+nav {
+    width: 250px;
+    display: flex;
+    border-bottom: solid 2px black;
+    cursor: pointer;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav a {
+    padding: 10px;
+    transition-duration:0.2s ;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+    display: block;
+}
+
+main div {
+    display: none;
+    padding: 20px;
+}
+
+.active {
+    border: solid 2px gray;
+    display: flex;
+    justify-content: center;
+    
+}
+#message{
+    
+    padding: 0%;
+}
+label{
+    width: 200px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+#form{
+    margin: auto;
+    margin-left: 50px;
+    
+}
+label,input
+{
+    margin-top: 20px;
+}
+input{
+    height: 20px;
+}
+.active input[type=submit]{
+    
+    height: 50px;
+    width: 120px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+}
+.active input[type=submit]:hover{
+    
+    background-color: black;
+    color: white;
+}
+@media only screen and (max-width:768px) {
+
+    .container {
+        width: 600px;
+        margin-left: 80px;
+        
+    }
+
+}
+@media only screen and (max-width:480px) {
+
+    .container {
+        width: 400px;
+        margin-left: 50px;
+        
+    }
+
+}

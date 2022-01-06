@@ -1,0 +1,111 @@
+body {
+    font-family: "Myriad Pro";
+}
+
+#portrait {
+    width: 500px;
+    height: 650px;
+}
+#portrait img{
+    width: 500px;
+    height: 650px;
+}
+
+.content {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+#about{
+    margin: auto;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h4, h5 {
+    text-align: center;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#about p {
+    margin: 20px;
+    font-size: medium;
+    font-family: sans-serif;
+}
+
+b {
+    font-weight: bold;
+}
+
+.socialmedia img {
+    width: 50px;
+    height: auto;
+}
+
+.socialmedia li {
+    list-style-type: none;
+    padding: 10px;  
+    
+
+}
+.socialmedia{
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width:768px) {
+
+    #portrait img{
+        margin-top: 80px;
+        width: 350px;
+        height: 450px;
+    }
+    #bar{
+        width: 330px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    #about p{
+        font-size:15px;
+    }
+    
+}
+@media only screen and (max-width:480px) {
+
+    #portrait img{
+        margin-top: 60px;
+        width: 200px;
+        height: 300px;
+    }
+    #bar{
+        width: 180px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 15px;
+    }
+    #about p{
+        font-size:12px;
+    }
+    .socialmedia img {
+        width: 20px;
+        height: auto;
+    }
+    #about{
+        width: 900px;
+    }
+}

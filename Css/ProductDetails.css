@@ -1,0 +1,75 @@
+.content {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.information {
+    padding: 15px;
+    width: 400px;
+    
+    font-family: "Myriad Pro";
+    ;
+}
+
+.brand {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.price {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#description {
+    font-size: 18px;
+    display: none;
+}
+
+#myBtn {
+    font-family: "Myriad Pro";
+    border: solid 1px black;
+    background-color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#form button {
+    margin-top: 25px;
+    font-family: "Myriad Pro";
+    font-size: 36px;
+    font-weight: bold;
+    width: 400px;
+    background-color: white;
+    transition-duration: 0.2s;
+}
+
+#form button:hover{
+    background-color: black;
+    color: white;
+    border: solid 2px white;
+}
+@media only screen and (max-width:768px) {
+    #form button {
+
+        width: 350px;
+
+    }
+}
+@media only screen and (max-width:480px) {
+    #form button {
+
+        width:200px;
+
+    }
+    .image img{
+        height: 200px;
+    }
+}
+
